@@ -3,7 +3,7 @@
 // @namespace      
 // @version        0.0.7
 // @description    Afficher les statistiques d'un membre
-// @author         
+// @author         Tolor
 // @URL            
 // @downloadURL    https://github.com/Tolor-8/-HFR-Stats/raw/main/%5BHFR%5D%20Stats.user.js
 // @updateURL      https://github.com/Tolor-8/-HFR-Stats/raw/main/%5BHFR%5D%20Stats.user.js
