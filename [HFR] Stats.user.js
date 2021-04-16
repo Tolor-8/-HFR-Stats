@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           [HFR] Stats
 // @namespace      
-// @version        0.0.7
+// @version        0.0.8
 // @description    Afficher les statistiques d'un membre
 // @author         Tolor
 // @URL            
@@ -49,6 +49,11 @@ along with this program.  If not, see https://ddst.github.io/HFR_Stats/LICENSE.
 /* v0.0.7
  * ------
  * Correction affichage stats par date
+ */
+
+/* v0.0.8
+ * ------
+ * Ajout couleur
  */
 
 this.$ = this.jQuery = jQuery.noConflict(true);
@@ -290,8 +295,8 @@ function mouseEnter(evt) {
 
 /* Renvoyer une couleur en fonction du nombre de messages */
 function getColor(count) {
-  let color     = ['#eeeeee','#d6e685','#8cc665','#44a340','#44a340'];
-  let threshold = [0        ,1        ,5        ,10       ,20       ];
+  let color     = ['#eeeeee','#d6e685','#8cc665','#44a340','#FFE97F','#FF6B02','#FF0724'];
+  let threshold = [0        ,1        ,5        ,10       ,20       ,50       ,100];
   let i = 0;
   while (i < threshold.length && count >= threshold[i]) ++i;
   return color[i-1];
