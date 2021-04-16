@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name           [HFR] Stats
-// @namespace      ddst.github.io
+// @namespace      
 // @version        0.0.7
 // @description    Afficher les statistiques d'un membre
-// @author         DdsT
-// @URL            https://ddst.github.io/HFR_Stats/
-// @downloadURL    https://ddst.github.io/HFR_Stats/hfrstats.user.js
-// @updateURL      https://ddst.github.io/HFR_Stats/hfrstats.meta.js
-// @supportURL     https://ddst.github.io/HFR_Stats/
+// @author         
+// @URL            
+// @downloadURL    https://github.com/Tolor-8/-HFR-Stats/raw/main/%5BHFR%5D%20Stats.user.js
+// @updateURL      https://github.com/Tolor-8/-HFR-Stats/raw/main/%5BHFR%5D%20Stats.user.js
+// @supportURL     
 // @icon           https://forum.hardware.fr/favicon.ico
 // @match          *://forum.hardware.fr/forum2.php*
 // @match          *://forum.hardware.fr/hfr/*/*sujet_*
